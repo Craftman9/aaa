@@ -1,0 +1,32 @@
+//body {
+padding:0;  
+}
+  
+.movie {
+display: grid;
+grid-template-columns: 260px 1fr;
+margin:10px;
+column-gap:5px;
+align-items:center;
+
+}
+
+//.movie-title {
+//margin:auto;
+//}
+
+.tags-list {
+margin:0;
+padding:15px;
+}
+
+.tag {
+display: inline-block;
+margin:5px;
+}
+
+.tag-link {
+display:block;  
+padding:5px 10px;
+}
+
